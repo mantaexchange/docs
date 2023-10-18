@@ -808,7 +808,7 @@ NONE
 ```
 ## Order Book
 
-- `GET /quote/v1/contract/depth`
+- `GET /quote/v1/depth`
 
 ### Weight:
 
@@ -857,7 +857,7 @@ Notes：If `limit=0` is set, a lot of data will be returned.
 
 ## Merge Depth
 
-- `GET /quote/v1/contract/depth/merged`
+- `GET /quote/v1/depth/merged`
 
 Merged deep interface.
 
@@ -909,7 +909,7 @@ Merged deep interface.
 
 ## Recent Trades List
 
-- `GET /quote/v1/contract/trades`
+- `GET /quote/v1/trades`
 
 Get recent market trades
 
@@ -938,7 +938,7 @@ Get recent market trades
 
 ## Kline/Candlestick Data
 
-- `GET /quote/v1/contract/klines`
+- `GET /quote/v1/klines`
 
 Kline/candlestick bars for a symbol. Klines are uniquely identified by their open time.
 
@@ -978,7 +978,7 @@ Notes: If startTime and endTime are not sent, only the latest K line will be ret
 
 ## Index Price Kline/Candlestick Data
 
-- `GET /api/quote/v1/contract/index/klines`
+- `GET /api/quote/v1/index/klines`
 
 Kline/candlestick bars for the index price of a pair.
 
@@ -1024,7 +1024,7 @@ Kline/candlestick bars for the index price of a pair.
 
 ## Mark Price Kline/Candlestick Data
 
-- `GET /api/quote/v1/contract/markPrice/klines`
+- `GET /api/quote/v1/markPrice/klines`
 
 Kline/candlestick bars for the mark price of a symbol.
 
@@ -1059,7 +1059,7 @@ Kline/candlestick bars for the mark price of a symbol.
 
 
 ## Mark Price
-- `GET /quote/v1/contract/markPrice`
+- `GET /quote/v1/markPrice`
 
 Get the mark price of a trading pair.
 

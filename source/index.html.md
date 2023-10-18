@@ -808,7 +808,7 @@ NONE
 ```
 ## Order Book
 
-- `GET /quote/v1/depth`
+- `GET /quote/v1/contract/depth`
 
 ### Weight:
 
@@ -857,7 +857,7 @@ Notes：If `limit=0` is set, a lot of data will be returned.
 
 ## Merge Depth
 
-- `GET /quote/v1/depth/merged`
+- `GET /quote/v1/contract/depth/merged`
 
 Merged deep interface.
 
@@ -909,7 +909,7 @@ Merged deep interface.
 
 ## Recent Trades List
 
-- `GET /quote/v1/trades`
+- `GET /quote/v1/contract/trades`
 
 Get recent market trades
 
@@ -938,7 +938,7 @@ Get recent market trades
 
 ## Kline/Candlestick Data
 
-- `GET /quote/v1/klines`
+- `GET /quote/v1/contract/klines`
 
 Kline/candlestick bars for a symbol. Klines are uniquely identified by their open time.
 
@@ -978,7 +978,7 @@ Notes: If startTime and endTime are not sent, only the latest K line will be ret
 
 ## Index Price Kline/Candlestick Data
 
-- `GET /api/quote/v1/index/klines`
+- `GET /api/quote/v1/contract/index/klines`
 
 Kline/candlestick bars for the index price of a pair.
 
@@ -1024,7 +1024,7 @@ Kline/candlestick bars for the index price of a pair.
 
 ## Mark Price Kline/Candlestick Data
 
-- `GET /api/quote/v1/markPrice/klines`
+- `GET /api/quote/v1/contract/markPrice/klines`
 
 Kline/candlestick bars for the mark price of a symbol.
 
@@ -1059,7 +1059,7 @@ Kline/candlestick bars for the mark price of a symbol.
 
 
 ## Mark Price
-- `GET /quote/v1/markPrice`
+- `GET /quote/v1/contract/markPrice`
 
 Get the mark price of a trading pair.
 
@@ -1127,7 +1127,7 @@ Get the mark price of a trading pair.
 
 ## 24hr Ticker Price Change Statistics
 
-- `GET /quote/v1/ticker/24hr`
+- `GET /quote/v1/contract/ticker/24hr`
 
 24 hour rolling window price change statistics.<br>
 **Careful** when accessing this with no symbol.
@@ -1191,7 +1191,7 @@ Latest price for a symbol or symbols.
 
 ## Symbol Order Book Ticker
 
-- `GET /quote/v1/ticker/bookTicker`
+- `GET /quote/v1/contract/ticker/bookTicker`
 
 Best price/qty on the order book for a symbol or symbols.
 

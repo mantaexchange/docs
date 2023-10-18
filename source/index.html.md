@@ -1166,7 +1166,7 @@ Get the mark price of a trading pair.
 
 
 ## Symbol Price Ticker
-- `GET /quote/v1/ticker/price`
+- `GET /quote/v1/contract/ticker/price`
 
 Latest price for a symbol or symbols.
 
